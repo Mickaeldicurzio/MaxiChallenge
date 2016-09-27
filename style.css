@@ -1,12 +1,10 @@
 
-/* ici les div*/
+/* Page HOME */
 html {
 	max-height: 100%;
 	max-width: 100%;
-margin: 0 auto;
-
+	margin: 0 auto;
 }
-
 
 body {
 	max-width: 100%;
@@ -14,49 +12,36 @@ body {
 	width: 100%;
 	height: 100%;
 	margin: 0 auto;
-	background: url("images/background.jpg") repeat ;
-	background-position:center;
-	background-size: 100%;
-	}
-
-
-/*ceci est un commentaire*/
-
-
-ul {
-
-	list-style: none;
-	padding-right: auto;
-	padding-left: auto;
-	max-width: 100%;
-	text-align: center;
-
+	background-image: url("https://demo.audiotheme.com/wp-content/uploads/sites/15/2015/04/background-18.jpg");
+	background-position: 35% 35%;
+	background-repeat: no-repeat;
+	filter: grayscale(99%);
+	background-size: cover;
+	background-blend-mode: soft-light;
+	background-color: #333;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/*.contenant {
-	display: inline-block;
-	width: 30%;
-    border: 1px solid #ccc;
 
-}*/
+ul 
+{
+	list-style: none;
+	max-width: 100%;
+	text-align: center;
+}
 
-.pictures img {
+/*.pictures img {
 	width: 90%;
 	margin: auto;
 	border-right: 1px solid #ccc;
 	padding: 5%;
-}
-
-.navbar {
-
-}
+}*/
 
 li {
 
 	display: inline-block;
 	padding: 2em;
-	}
-
+}
 
 li a {
 	text-decoration: none;
@@ -71,24 +56,34 @@ li a:hover {
 
 .jumbotron {
 	box-sizing: border-box;
-	padding: 48px 0;
+	padding: 100px 0;
 	text-align: center;
     width: 100%;
-    /*padding-top: 20%;*/
     padding-bottom: 10%;
     vertical-align: middle;
     color: #ffffff;
 }
 
-.cadre {
+/*.cadre {
 	text-align: center;
 	max-width: 100%;
 	min-height: 100%;
 	margin: 0 auto;
+}*/
+
+h1, h4
+{
+	font-weight: normal;
+	font-size: 4rem;
+	letter-spacing: 0.2em;	
 }
 
-h4 {
+h4 
+{
 	color: #cccccc;
+	font-size: 16px;
+	line-height: 0.6;
+	text-transform: uppercase;
 }
 /*
 .container
@@ -102,3 +97,19 @@ height:5%;
 list-style: none;
 background: url("images/background.jpg") repeat ;
 }*/
+basdepage
+{
+
+}
+
+footer /*barre d'écoute de musique*/
+{
+
+}
+
+Navbar bas
+{
+
+}
+
+/*PAGE BIO*/
