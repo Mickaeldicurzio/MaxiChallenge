@@ -13,9 +13,10 @@ body {
 	height: 100%;
 	margin: 0 auto;
 	background-image: url("https://demo.audiotheme.com/wp-content/uploads/sites/15/2015/04/background-18.jpg");
+	background-attachment: fixed;
 	background-position: 35% 35%;
 	background-repeat: no-repeat;
-	filter: grayscale(99%);
+	filter: grayscale(99%) initial;
 	background-size: cover;
 	background-blend-mode: soft-light;
 	background-color: #333;
@@ -23,7 +24,7 @@ body {
 }
 
 
-ul 
+ul
 {
 	list-style: none;
 	max-width: 100%;
@@ -63,6 +64,13 @@ li a:hover {
     vertical-align: middle;
     color: #ffffff;
 }
+.paragraphe{
+	text-align: center;
+	padding-left: 20%;
+	padding-right: 20%;
+	color:#ccc;
+
+}
 
 /*.cadre {
 	text-align: center;
@@ -75,10 +83,10 @@ h1, h4
 {
 	font-weight: normal;
 	font-size: 4rem;
-	letter-spacing: 0.2em;	
+	letter-spacing: 0.2em;
 }
 
-h4 
+h4
 {
 	color: #cccccc;
 	font-size: 16px;
