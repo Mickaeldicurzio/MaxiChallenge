@@ -10,8 +10,8 @@ html {
 #index {
 	max-width: 100%;
 	max-height:100%;
-	width: 80%;
-	height: 80%;
+	width: 85%;
+	height: 85%;
 	margin: 0 auto;
 	background-image: url("https://demo.audiotheme.com/wp-content/uploads/sites/15/2015/04/background-18.jpg");
 	background-position: 50% 50%;
@@ -27,23 +27,21 @@ html {
 #index ul
 {
 	display: flex;
-	justify-content: center;
+  justify-content: space-around;
 	align-items: center;
 	list-style: none;
 	max-width: 100%;
-	text-align: center;
 }
 
 #index li {
 	display: flex;
-	align-items: center;
 	flex-direction: row;
 	padding: 2em;
+	font-weight: normal;
 }
 
 #index li a {
 	display: flex;
-	align-items: center;
 	text-decoration: none;
 	color: #cccccc;
 	text-transform: uppercase;
@@ -59,11 +57,11 @@ html {
 	box-sizing: border-box;
 	padding: 100px 0;
 	text-align: center;
-    width: 100%;
-    padding-top: 13%;
-    padding-bottom: 25%;
-    vertical-align: middle;
-    color: #ffffff;
+  width: 100%;
+  padding-top: 13%;
+  padding-bottom: 25%;
+  vertical-align: middle;
+  color: #ffffff;
 }
 
 #index .index h1, h4
@@ -81,13 +79,13 @@ html {
 	color: #cccccc;
 	font-size: 15px;
 	line-height: 0.6;
-	text-transform: uppercase;
 	letter-spacing: 0.1em;
 }
 
 /*<!--~~~~~~~~ videos ~~~~~~~~-->*/
 #index h2
 {
+	display: flex;
 	color: #fff;
 	font-size: 20px;
 	justify-content: flex-start;
@@ -96,13 +94,14 @@ html {
 
 #index h6
 {
+	diplsay: flex;
 	justify-content: flex-end;
-	color: rgba(255, 255, 255, 0.4);
+	color: rgba(255, 255, 255, 0.2);
 }
 
 #index h2, h6
 {
-	display: inline-block;
+	display:flex;
 	justify-content: space-between;
 }
 
@@ -111,21 +110,20 @@ html {
 	z-index: 2;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
 }
 
 #index .ellement
 {
 	z-index: 2;
 	display: flex;
-	align-items: center;
 	height: 250%;
 	width: 190%;
 	border-top: solid;
 	border-bottom: solid;
-	border-color: rgba(255, 255, 255, 0.4);
+	border-color: rgba(255, 255, 255, 0.2);
 	border-width: 0.3px;
 	flex-wrap: wrap;
+	padding-top: 3%;
 }
 
 #index .ellement p
@@ -135,7 +133,6 @@ html {
 	color: #fff;
 	font-weight: bold;
 	text-transform: capitalize;
-	position: relative;
 }
 
 #index .ellement img
@@ -143,6 +140,7 @@ html {
 	z-index: 2;
 	height: 180%;
 	width: 90%;
+	padding-top: 3%;
 }
 
 /*<!--~~~~~~~~ upcoming gigs ~~~~~~~~-->*/
@@ -150,7 +148,6 @@ html {
 {
 	color: #fff;
 	padding-top: 7%;
-	border-collapse: collapse;
 	text-align: center;
 	padding-bottom: 7%;
 }
@@ -160,36 +157,56 @@ html {
 	text-align: justify;
 	font-weight: bold;
 	letter-spacing: 0.2em;
+	border-bottom: solid 0.5px;
+	border-color: rgba(255, 255, 255, 0.2);
+	padding-bottom: 3%;
+}
+#index .first
+{
+	/*border-top: solid 0.5px;
+	border-color: rgba(255, 255, 255, 0.4);*/
 }
 #index tr
 {
-	/*border: solid rgba(255, 255, 255, 0.2);
-	border-width: 1px 0 1px 0;*/
 	text-align: left;
-	border-top: 1px;
-	border-bottom: 1px;
-	border-color: #cccccc;
+	border-bottom: solid 0.5px;
+	border-color: rgba(255, 255, 255, 0.2);
 }
 #index td
 {
-	border-top: 1px;
-	border-bottom: 1px;
-	border-color: #cccccc;
+	border-bottom: solid 0.5px;
+	border-color: rgba(255, 255, 255, 0.2);
 }
 #index td.mois
 {
 	max-width: 10%;
+	text-align: center;
+	font-size: 14px;
 }
 #index td.jour
 {
 	font-weight: bold;
 	text-align: left;
-	font-size: 20px;
+	font-size: 23px;
+	min-width: 10%;
 }
-#index td.ville .lieux
+#index td.ville
 {
 	color: #cccccc;
+	font-weight: bold;
 }
+
+#index td.lieux
+{
+	color: #cccccc;
+	letter-spacing: 0.1em;
+}
+
+#index table
+{
+	padding-bottom: 2%;
+}
+
 #index a
 {
 	color: #cccccc;
@@ -203,7 +220,7 @@ html {
 }
 #index hr
 {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.2);
 }
 
 /*<!--~~~~~~~~ basdepage ~~~~~~~~-->*/
@@ -211,15 +228,22 @@ html {
 {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 	padding-top: 3%;
-	padding-bottom: 5%;
+	padding-bottom: 10%;
+}
+#index .block img
+{
+	height: 90%;
+	width: 120%;
 }
 
 #index .block
 {
+	display: flex;
+	flex-wrap: wrap;
 	color: #cccccc;
-	max-width: 34%;
+	max-width: 30%;
 	letter-spacing: 0.1em;
 	font-size: 16px;
 }
@@ -247,14 +271,19 @@ html {
 {
 	diplay: flex;
 	flex-direction: row;
+	text-align: center;
 	color: #fff;
-	padding-top: 5%;
+	padding-top: 2%;
+	letter-spacing: 0.5em;;
+	margin-bottom: 4%;
+	font-size: 23px;
 }
 
 #footer p
 {
 	text-align: center;
 	color: #fff;
-	font-size:small;
+	font-size: smaller;
 	padding-bottom: 6%;
+	letter-spacing: 0.1em;
 }
