@@ -8,7 +8,7 @@ html {
 
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~ Mickael ~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~ PHOTOS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 /*<!--~~~~~~~~ body ~~~~~~~~-->*/
 
@@ -130,7 +130,7 @@ hr
 
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~ julie - Mickael ~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~ HOME ~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 /*<!--~~~~~~~~ body ~~~~~~~~-->*/
 
@@ -496,5 +496,91 @@ margin-top: 5%;
 	font-size: smaller;
 	padding-bottom: 6%;
 	letter-spacing: 0.1em;
+}
 
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~ julie - Mickael ~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~ MUSIC ~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*<!--~~~~~~~~ Records ~~~~~~~~-->*/
+.records
+{
+  width: 85%;
+	height: 85%;
+  flex-wrap: wrap;
+}
+.records .container
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 5%;
+  padding-top: 6%;
+}
+
+.ellement1
+{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 35%;
+  padding-right: 7%;
+}
+.ellement2
+{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 35%;
+  padding-right: 7%;
+}
+  .ellement3
+  {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 35%;
+  }
+  .records h3, h4
+  {
+    display: flex;
+  }
+  .records h3
+  {
+    color: #fff;
+  }
+  .records h4
+  {
+    text-align: left;
+    font-size: 15px;
+    color: #cccccc;
+    margin-bottom: 10%;
+  }
+
+  /*~~~~~~~~~~~~~~~~~~~~~~~~~~ julie - Mickael ~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+  /*~~~~~~~~~~~~~~~~~~~~~~~~~~ VIDEOS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#videos .container
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 5%;
+  padding-bottom: 6%;
+}
+#videos .ellement
+{
+  max-width: 30%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#videos img
+{
+  padding-top: 5%;
+}
+#videos p
+{
+  color: #ffffff;
+  text-transform: capitalize;
+  font-weight: bold;
 }
