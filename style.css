@@ -376,7 +376,6 @@ li a:hover {
 }
 .block
 {
-
 	display: flex;
 	flex-wrap: wrap;
 	color: #cccccc;
@@ -471,7 +470,7 @@ li a:hover {
   }
   .records h3, h4
   {
-    display: flex;
+    /*display: flex;*/
   }
   .records h3
   {
@@ -479,7 +478,6 @@ li a:hover {
   }
   .records h4
   {
-    text-align: left;
     font-size: 15px;
     color: #cccccc;
     margin-bottom: 10%;
